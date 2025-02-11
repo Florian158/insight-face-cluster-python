@@ -25,7 +25,7 @@ python .\insightFace.py
 ## Prerequisites
 
 sure not complete but some are:
-C++ build tool e.g. [here](https://visualstudio.microsoft.com/de/visual-cpp-build-tools/)
+C++ build tool e.g. [here](https://visualstudio.microsoft.com/de/visual-cpp-build-tools/)  
 Windows 10/11 SDK
 
 ```bash

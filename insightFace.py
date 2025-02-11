@@ -1,6 +1,5 @@
 import cv2
 import os
-import numpy as np
 from sklearn.cluster import DBSCAN
 from insightface.app import FaceAnalysis
 from collections import defaultdict
@@ -10,7 +9,7 @@ from shutil import copyfile
 face_app = FaceAnalysis(name='buffalo_l')
 face_app.prepare(ctx_id=-1)  # Use 0 for GPU, -1 for CPU
 
-input_faces = "Images"
+input_faces = "Images"  # adapt this depending where your images are located
 output_folder = "sorted_faces/"
 
 if not os.path.exists(output_folder):
